@@ -1,0 +1,39 @@
+.container{
+    width: 100%;
+    height: auto;
+    background: skyblue;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-flow: wrap;
+    text-align: center;
+}
+
+.box{
+    width: 40%;
+    height: 600px;
+    background: snow;
+    margin: 20px;
+    box-sizing: border-box;
+}
+
+.imagecenter {
+    display: block;
+    padding-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    }
+
+@media screen and (max-width:1200px){
+.box{
+    width: 40%;
+    }
+}
+
+@media screen and (max-width:600px){
+    .box{
+        width: 90%;
+        }
+    }

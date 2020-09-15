@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+}
+
+
+.contact {
+  color: black;
+  text-align: left;
+  margin: auto;
+  width: 40%;
+}
+
+body {
+  background: cornflowerblue;
+  line-height: 1.6;
+  padding: 1em;
+}
+
+.container{
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1em;
+  text-align: center;
+}
+.wrapper {
+  width: 100%;
+}
+
+/* Large Screens */
+@media screen and (min-width:700px){
+    body{
+        background: chocolate;
+    }
+}
+
+/* Smaller Screens */
+@media screen and (max-width:699px){
+    text-align: center;
+}

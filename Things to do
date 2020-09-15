@@ -1,0 +1,16 @@
+This section must at least contain
+A title of the person/place/thing
+A subtitle
+A two paragraph description of it
+A main image
+
+1. Build the HTML
+Open up index.html
+You should have a <head>, <title>, <body>, and some content using headers (<h1>, <h2>, etc…), paragraphs (<p>), and and an <img>.
+Don’t worry too much about layout yet.  We’ll get to that later.  Just try and get all the content on the page.
+2. Add some CSS
+Use a style ="" attribute to style your body, h1, h2, h3, and p. Customize the background color and anything else you wish.  Play around a bit.
+3. link to a CSS file
+Open up main.css. Cut and paste your CSS from step 1 into this new file.
+4. Push to Github
+Add all of your files, commit them, and push them up to github
